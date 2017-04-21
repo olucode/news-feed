@@ -16,9 +16,12 @@ $(document).ready(function () {
 	    });
 	}
 
-	function printResults(result){
+	function printResults(result)
+	{
 		var out = "";
-		for (var i in result) {
+		for (var i in result) 
+		{
+
 			var title = result[i].title;
 			var link = "https://en.wikipedia.org?curid=" + result[i].pageid
 			if(result[i].thumbnail){
@@ -33,6 +36,7 @@ $(document).ready(function () {
 			}
 			resultDiv += "</div> </div>";
 			out += resultDiv;
+
 		}
 		$('#search-results').html(out);
 	}
