@@ -25,14 +25,15 @@ $(document).ready(function()
 			let link = "<a href='" + result[i].url + "'> ";
 			let resultDiv = `<li class="well well-lg list-group-item">
 						<div class="row">
-							<div class="col-xs-offset-1">
-							</div>
-							<div class="col-xs-8">
-								<b><p><a href="${ link }">${ result[i].title }</a></p></b>
+
+							<div class="col-xs-5">
+								<b><p><a href="${ link }" target="_blank">${ result[i].title }</a></p></b>
 								<p> ${ result[i].description }. </p>
 							</div>
 							<div class="col-xs-2">
-								<a href="${link}"><img src="${result[i].urlToImage}" height="150" width="190"></a>
+							</div>
+							<div class="col-xs-3">
+								<a href="${link}" target="_blank"><img src="${result[i].urlToImage}" class="img-responsive img-rounded"></a>
 							</div>
 						</div>	
 					</li>`;
