@@ -4,17 +4,26 @@ $(document).ready(function()
 
 	function getNews()
 	{
-		let bbc = "https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=1cb3ca22268a477b9d2a2f65c940ecfa";
-		let hackerNews = "";
-		let urls = [];
-		let url = "https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=1cb3ca22268a477b9d2a2f65c940ecfa";
+		let endPoint = "https://newsapi.org/v1/articles";
+		let apiKey = "1cb3ca22268a477b9d2a2f65c940ecfa";
+		let urls = {
+			"bbc" : `${endPoint}?source=bbc-news&sortBy=top&apiKey=${apiKey} `,
+			"guardian-uk" : `${endPoint}?source=the-guardian-uk&sortBy=top&apiKey=${apiKey} `,
+			"hacker-news" : `${endPoint}?source=hacker-news&sortBy=top&apiKey=${apiKey} `,
+			"mashable" : `${endPoint}?source=mashable&sortBy=latest&apiKey=${apiKey} `,
+			"tnw": `${endPoint}?source=the-next-web&sortBy=latest&apiKey=${apiKey}`
+		};
 
-		$.getJSON(url, function(data) 
+		let allResponses = {};
+		for(var i in urls)
 		{
-			console.log("JSON data has been retrieved");
-			let news = data.articles;
-			printNews(news);
-		});
+			$.getJSON(urls[i], function(data) 
+			{
+				console.log("JSON data has been retrieved");
+				let news = data.articles;
+				printNews(news);
+			});
+		}	
 	}
 
 	function printNews(result)
