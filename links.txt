@@ -1,0 +1,10 @@
+This File contains a list of sources that I plan on using.
+ars-technica
+associated-press
+bbc-news
+bbc-sport
+business-insider
+buzzfeed
+engadget
+fortune
+google-news
