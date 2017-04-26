@@ -8,7 +8,8 @@ $(document).ready(()=>{
 		let apiKey = "1cb3ca22268a477b9d2a2f65c940ecfa";
 		let urls = [
 			`${endPoint}?source=google-news&sortBy=top&apiKey=${apiKey} `,
-			`${endPoint}?source=engadget&sortBy=latest&apiKey=${apiKey} `
+			`${endPoint}?source=engadget&sortBy=latest&apiKey=${apiKey} `,
+			`${endPoint}?source=fortune&sortBy=latest&apiKey=${apiKey}`
 		];
 
 		let allResults = [];
@@ -58,6 +59,7 @@ $(document).ready(()=>{
 							<div class="col-xs-5">
 								<b><p><a href="${ link }" target="_blank">${ res[i].title }</a></p></b>
 								<p> ${ res[i].description }. </p>
+								<small> Author : (${res[i].author})</small>
 							</div>
 							<div class="col-xs-2">
 							</div>
