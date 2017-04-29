@@ -37,7 +37,7 @@ $(document).ready(()=>{
 		}
 	}
 
-
+	//display thew news
 	function printNews(result)
 	{	
 
