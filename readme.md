@@ -8,6 +8,6 @@ You no longer have to visit your favourite news site individually just to view t
 
 To add more news sources, check out the included links.txt file.
 
-Built with the help of [NewsApi](https://newsapi.org) . :heart:
+Built with the help of <a href="https://newsapi.org">Newsapi.org</a> . :heart:
 
-Check out the live preview at (http://codepen.io/fortecdev/pen/mmROZV)
+Check out the live preview at <a href="http://codepen.io/fortecdev/pen/mmROZV" target="_blank">http://codepen.io/fortecdev/pen/mmROZV</a>
