@@ -6,6 +6,7 @@ $(document).ready(()=>{
 	{
 		let endPoint = "https://newsapi.org/v1/articles";
 		let apiKey = "1cb3ca22268a477b9d2a2f65c940ecfa";
+		//sources can be added from the included links.txt
 		let urls = [
 			`${endPoint}?source=google-news&sortBy=top&apiKey=${apiKey} `,
 			`${endPoint}?source=engadget&sortBy=latest&apiKey=${apiKey} `,
