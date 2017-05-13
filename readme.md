@@ -1,6 +1,6 @@
 
 # News-In-One
-See the latest headlines from multiple news sources, all in one single page. 
+See the latest headlines from multiple news sources, all in one page. 
 
 It retrieves headlines from a predefined number of news sites, with appropriate links to the news item. :clap: 
 
