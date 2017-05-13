@@ -1,0 +1,16 @@
+This File contains a list of sources that I plan on using. More still reside at https://newsapi.org/sources
+
+ars-technica
+associated-press
+bbc-news
+bbc-sport
+business-insider
+buzzfeed
+engadget
+fortune
+google-news
+hacker-news
+ign
+mtv-news
+reddit-r-all
+techcrunch
