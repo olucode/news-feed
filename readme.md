@@ -10,4 +10,4 @@ To add more news sources, check out the included links.txt file.
 
 Built with the help of <a href="https://newsapi.org">Newsapi.org</a> . :heart:
 
-Check out the live preview at <a href="http://codepen.io/fortecdev/pen/mmROZV" target="_blank">http://codepen.io/fortecdev/pen/mmROZV</a>
+Check out the live preview at <a href="http://codepen.io/fortecdev/pen/mmROZV">http://codepen.io/fortecdev/pen/mmROZV</a>
